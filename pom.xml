@@ -16,21 +16,15 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>7.0</version>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>9.1.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.spec.javax.jms</groupId>
-            <artifactId>jboss-jms-api_2.0_spec</artifactId>
-            <version>2.0.0.Final</version>
+            <groupId>org.jboss.spec.jakarta.jms</groupId>
+            <artifactId>jboss-jms-api_3.0_spec</artifactId>
+            <version>3.0.0.Final</version>
         </dependency>
         <dependency>
             <groupId>org.flywaydb</groupId>
@@ -38,7 +32,7 @@
             <version>4.1.2</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.spec.javax.rmi</groupId>
+            <groupId>org.jboss.spec.jakarta.rmi</groupId>
             <artifactId>jboss-rmi-api_1.0_spec</artifactId>
             <version>1.0.2.Final</version>
         </dependency>

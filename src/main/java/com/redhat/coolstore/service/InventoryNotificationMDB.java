@@ -3,12 +3,12 @@ package com.redhat.coolstore.service;
 import com.redhat.coolstore.model.Order;
 import com.redhat.coolstore.utils.Transformers;
 
-import javax.inject.Inject;
-import javax.jms.*;
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-import javax.rmi.PortableRemoteObject;
+import jakarta.inject.Inject;
+import jakarta.jms.*;
+import jakarta.naming.Context;
+import jakarta.naming.InitialContext;
+import jakarta.naming.NamingException;
+import jakarta.rmi.PortableRemoteObject;
 import java.util.Hashtable;
 
 public class InventoryNotificationMDB implements MessageListener {
